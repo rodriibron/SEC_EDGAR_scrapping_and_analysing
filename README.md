@@ -11,7 +11,7 @@ are Tesla, Apple and IBM, although this can be applied to any other report.
 
 
 
-- FILE OUTLINES
+## FILE OUTLINES
 
 Each of the four files includes detailed comments explaining the usage of each of the classes and functions. An outline of the functionalities
 of each of the files is the following:
@@ -47,16 +47,16 @@ Wraps up the rest of the code in this repository. Takes care of scraping, downlo
 
 
 
-- DEPENDENCIES NEEDED
+## DEPENDENCIES NEEDED
 
 This repository only contains open source public libraries. In particular, for the code to run we need:
 
-Python packages:
+- Python packages:
 numpy
 pandas
 re
 
-# Webscraping packages
+- Webscraping packages
 requests
 
 bs4 including:
@@ -68,7 +68,7 @@ from selenium import webdriver, from selenium.webdriver.chrome.service import Se
 webdriver_manager.chrome including:
 from webdriver_manager.chrome import ChromeDriverManager
 
-# NLP packages
+- NLP packages
 nltk including:
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -76,7 +76,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.tag import pos_tag
 from nltk.chunk import ne_chunk
 
-# NLP pre trained models:
+- NLP pre trained models:
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')

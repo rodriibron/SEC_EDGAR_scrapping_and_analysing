@@ -1,0 +1,2 @@
+Industry entities: 1 engineering 2 technology 3 advertisement 
+Product entities: 1 URLs 2 iPad Pro 3 iPad Air 4 AirPods 5 iPhone 12 6 iPhone 13 7 tvOS 8 watchOS 9 Competition 10 Components Although 11 AirPods Max 12 MacBook Pro 13 AppleCare 14 SECs 15 iPhone SE 16 App Store 17 Digital 18 Mac 19 MacBook Air 20 Development Because 21 iPhone 22 iPadOS 23 iOS 24 HomePod 25 iPad 26 macOS 27 iPhone 14 28 AirPods Pro 29 Accessories 

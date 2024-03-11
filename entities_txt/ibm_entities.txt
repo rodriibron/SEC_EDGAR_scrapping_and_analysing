@@ -1,0 +1,2 @@
+Industry entities: 1 engineering 2 technology 3 finance 
+Product entities: 1 Contents 2 IBMs 3 SAP 4 AI 5 Tabulating Machine 6 Board 7 Dell Technologies 8 National Economic Council 9 Hewlett-Packard Enterprise 10 Senior 11 BMC 12 Computing Scale 13 Controller 14 Reform Act 15 VMware 16 Assistant 17 Economic Policy 18 General 19 NetApp 20 IBM 21 Goldman Sachs Group 22 Contents Overall 23 Intel 24 The International Time 

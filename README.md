@@ -39,7 +39,9 @@ company whose EDGAR report we are analysing using again nltk.
 
 4. main.py 
 
-Wraps up the rest of the code in this repository. Takes care of scraping, downloading of text, tables and source html, filtering and summarisation and entity recognition.
+Wraps up the rest of the code in this repository. Takes care of scraping, downloading of text, tables and source html, filtering and summarisation and entity recognition. 
+
+The last lines of code obtain the summary of financial results and saves them. It also includes a loop which downloads all tables with financial information and saves them as excel spreadsheets,
 
 
 

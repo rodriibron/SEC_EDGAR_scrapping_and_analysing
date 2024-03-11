@@ -51,33 +51,12 @@ Wraps up the rest of the code in this repository. Takes care of scraping, downlo
 
 This repository only contains open source public libraries. In particular, for the code to run we need:
 
-- Python packages:
-numpy
-pandas
-re
+- Python packages: numpy, pandas, re
 
-- Webscraping packages
-requests
+- Webscraping packages: requests, bs4 (BeautifulSoup, element and Tag) selenium (webdriver, selenium.webdriver.chrome.service and Service),  webdriver_manager.chrome and ChromeDriverManager
 
-bs4 including:
-from bs4 import BeautifulSoup, element, Tag
 
-selenium including:
-from selenium import webdriver, from selenium.webdriver.chrome.service import Service 
 
-webdriver_manager.chrome including:
-from webdriver_manager.chrome import ChromeDriverManager
+- NLP packages: nltk including nltk.corpus (stopwords) nltk.stem (PorterStemmer), nltk.tokenize (word_tokenize, sent_tokenize), nltk.tag (pos_tag), nltk.chunk (ne_chunk)
 
-- NLP packages
-nltk including:
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize, sent_tokenize
-from nltk.tag import pos_tag
-from nltk.chunk import ne_chunk
-
-- NLP pre trained models:
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('maxent_ne_chunker')
-nltk.download('words')
+- NLP pre trained models: nltk.download('punkt'),  nltk.download('averaged_perceptron_tagger'), nltk.download('maxent_ne_chunker'), nltk.download('words')
